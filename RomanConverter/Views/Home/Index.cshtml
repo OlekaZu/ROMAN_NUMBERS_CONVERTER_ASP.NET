@@ -1,0 +1,44 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="d-lg-flex justify-content-between">
+    <div class="d-flex flex-column align-items-center mb-2">
+        <h4>From the Roman Number</h4>
+        <form action="" id="convert-from" method="post">
+            <div class="d-grid gap-2" style="--bs-rows: 4; --bs-columns: 4;">
+                <input name="InputFromRoman" style="grid-column: 1 / span 4" placeholder="Enter the Roman Number"/>
+                <input name="RezultFromRoman" style="grid-column: 1 / span 4" readonly/>
+                <button class="btn btn-primary" style="grid-row: 3" type="button">I</button>
+                <button class="btn btn-primary" style="grid-row: 3" type="button">V</button>
+                <button class="btn btn-primary" style="grid-row: 3" type="button">X</button>
+                <button class="btn btn-primary" style="grid-row: 3" type="button">L</button>
+                <button class="btn btn-primary" style="grid-row: 4" type="button">C</button>
+                <button class="btn btn-primary" style="grid-row: 4" type="button">D</button>
+                <button class="btn btn-primary" style="grid-row: 4" type="button">M</button>
+                <button class="btn btn-success" style="grid-row: 4" type="submit">=</button>
+            </div>
+        </form>
+    </div>
+
+    <div class="d-flex flex-column align-items-center mb-2">
+        <h4>To the Roman Number</h4>
+        <form action="" id="convert-to" method="post">
+            <div class="d-grid gap-2" style="--bs-rows: 5; --bs-columns: 5;">
+                <input name="InputToRoman" style="grid-column: 1 / span 5" placeholder="Enter the Arabic Number" />
+                <input name="RezultToRoman" style="grid-column: 1 / span 5" readonly />
+                <button class="btn btn-primary" style="grid-row: 3" type="button">1</button>
+                <button class="btn btn-primary" style="grid-row: 3" type="button">2</button>
+                <button class="btn btn-primary" style="grid-row: 3" type="button">3</button>
+                <button class="btn btn-primary" style="grid-row: 3" type="button">4</button>
+                <button class="btn btn-primary" style="grid-row: 3" type="button">5</button>
+                <button class="btn btn-primary" style="grid-row: 4" type="button">6</button>
+                <button class="btn btn-primary" style="grid-row: 4" type="button">7</button>
+                <button class="btn btn-primary" style="grid-row: 4" type="button">8</button>
+                <button class="btn btn-primary" style="grid-row: 4" type="button">9</button>
+                <button class="btn btn-primary" style="grid-row: 4" type="button">0</button>
+                <button class="btn btn-success" style="grid-column: 2/span 3" type="submit">=</button>
+            </div>
+        </form>
+    </div>
+</div>

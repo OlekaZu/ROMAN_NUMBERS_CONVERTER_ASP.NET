@@ -1,0 +1,9 @@
+#MyIngnore
+.vscode/
+.DS_Store
+RomanConverter/.DS_Store
+RomanConverter/.vscode/
+RomanConverter/.vs/
+RomanConverter/bin/
+RomanConverter/obj/
+RomanConverter/RomanConverter.csproj.user
